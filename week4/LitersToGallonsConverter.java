@@ -5,7 +5,7 @@ public class LitersToGallonsConverter {
         double liters, gallons;
         int linesCounter = 0;
 
-        for (gallons = 1; gallons <= 100; gallons += 4){
+        for (gallons = 1; gallons <= 100; gallons += 3){
 
             if(linesCounter % 5 == 0) {
                 System.out.println();
