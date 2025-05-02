@@ -22,6 +22,7 @@ public class LitersToGallonsConverter {
             }
         }
 
+        System.out.println();
         System.out.println("We are done!!!");
     }
 }
