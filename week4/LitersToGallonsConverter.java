@@ -13,7 +13,7 @@ public class LitersToGallonsConverter {
 
             linesCounter++;
 
-            liters = (gallons * 3.79);
+            liters = (gallons * 3.785);
 
             if(gallons == 1) {
                 System.out.println( String.format("%.2f", liters) + " Liters = " + gallons + " Gallon");
