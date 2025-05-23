@@ -1,6 +1,7 @@
 import javax.swing.*;
 import java.awt.*;
 
+//please note that the screenshot for this project is in the README at the root of repo it111
 public class ShowWindow2 extends JFrame {
 
     public static void main(String[] args) {
