@@ -16,9 +16,6 @@ public class dailySpecials {
         specials = specials.toLowerCase();
         specials = specials.substring(0,1).toUpperCase() + specials.substring(1);
 
-
-//        input.close();
-
         String coffee;
         double price;
 
@@ -52,6 +49,7 @@ public class dailySpecials {
                     System.out.printf("$%.2f dollars", total);
                 }
             }
+                
             case "Tuesday" -> {
                 coffee = "Red Eye";
                 price = 4.95;
@@ -72,6 +70,7 @@ public class dailySpecials {
                 }
 
             }
+                
             case "Wednesday" -> {
                 coffee = "Bone Dry Cappuccino";
                 price = 3;
@@ -91,6 +90,7 @@ public class dailySpecials {
                     System.out.printf("$%.2f dollars", total);
                 }
             }
+                
             case "Thursday" -> {
                 coffee = "Shot in the Dark";
                 price = 4;
@@ -110,6 +110,7 @@ public class dailySpecials {
                     System.out.printf("$%.2f dollars", total);
                 }
             }
+                
             case "Friday" -> {
                 coffee = "Dirty Chai";
                 price = 4.95;
@@ -129,6 +130,7 @@ public class dailySpecials {
                     System.out.printf("$%.2f dollars", total);
                 }
             }
+                
             default ->
                     System.out.println("Please enter a valid week day (Monday, Tuesday, Wednesday, Thursday or Friday)");
         }
